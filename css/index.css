@@ -19,7 +19,6 @@ body{
     max-width: 550px;
     min-height: 250px;
     border-radius: 12px;
-
 }
 
 #head h2 {
@@ -87,12 +86,19 @@ body{
 
 .box{
 height: 30px;
+width: 30px;
+background: url("../images/unchecked.png") center center / cover no-repeat;
+}
+
+.boxSwitch{
+background: url("../images/checked.png") center center / cover no-repeat;
 }
 
 .list {
     width: 360px;
     font-weight: 600;
     font-size: 15px;
+    user-select: none;
 }
 
 .delete{
