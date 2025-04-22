@@ -67,7 +67,7 @@ body{
 }
 
 #search button:hover{
-    background-color: rgb(85, 235, 85);
+    background-color: rgb(53, 193, 53);
     font-weight: 600;
     font-size: 16px;
     border: px solid orangered;
@@ -112,3 +112,42 @@ box-sizing: border-box;
     background-color: white;
 }
 
+
+
+
+/* Media queries --------  */
+
+
+@media only screen and (max-width:768px){
+  #container{
+    width: 29rem;
+    padding-bottom: 10px;
+  }
+
+  #search{
+    width: 26rem;
+  }
+
+}
+
+@media only screen and (max-width:480px) {
+    #container{
+        width: 16rem;
+        padding: 10px 20px;
+      }
+
+      #search{
+        width: 16rem;
+        margin-left: 0;
+      }
+
+      .list{
+        padding-left: 20px;
+        padding-right: 10px;
+      }
+
+        .box{
+            padding-left: 10px;
+            box-sizing: border-box;
+        }
+}
